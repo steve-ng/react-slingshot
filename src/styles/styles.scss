@@ -1,3 +1,5 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+
 /* Variables */
 $vin-blue: #5bb7db;
 $vin-green: #60b044;
@@ -8,8 +10,6 @@ body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -25,7 +25,53 @@ h2 {
 	color: $vin-blue;
 }
 
+.shadow-text { text-shadow: 1px 1px 1px rgba(0,0,0,.7); }
+
 .savings { color: $vin-green; }
 .loss { color: $vin-red; }
 input.small { width: 46px; }
 td.fuel-savings-label { width: 175px; }
+
+.mt-50 { margin-top: 50px; }
+.mt-75 { margin-top: 75px; }
+.mt-100 { margin-top: 100px; }
+
+.pt-50 { padding-top: 50px; }
+.pt-75 { padding-top: 75px; }
+.pt-100 { padding-top: 100px; }
+
+.parent-background {
+  background-image: url(http://theblueroom.bupa.com.au/-/media/images/life-stages/placeholders/1200x600/2015/12/baby-sleeping-on-dads-chest.jpg);
+  background-size: 100%;
+  background-size:cover;
+}
+
+.min-height-600 { min-height: 600px; }
+.min-height-700 { min-height: 700px; }
+.min-height-1000 { min-height:1000px; }
+
+.color-white { color: white; }
+
+.font-72 { font-size: 72px; }
+
+.big-form {
+  margin-top: 0;
+  float: none!important;
+  background: rgba(245,245,245,.7);
+  border-radius: 4px;
+  padding: 15px;
+  display: inline-block;
+  min-width: 500px;
+}
+
+.bg-color-white {background-color: white}
+.bg-color-gray {background-color: #F0F2F4}
+
+.p- { padding:11px; }
+.p  { padding:21px; }
+.p+ { padding:42px; }
+
+
+.m- { margin:11px; }
+.m  { margin:21px; }
+.m+ { margin:42px; }

@@ -1,7 +1,7 @@
 {
-  "name": "react-slingshot",
-  "version": "5.0.0",
-  "description": "Starter kit for creating apps with React and Redux",
+  "name": "new-project",
+  "version": "0.1.0",
+  "description": "",
   "engines": {
     "npm": ">=3"
   },
@@ -26,15 +26,18 @@
     "test:watch": "npm run test -- --watch",
     "open:cover": "npm run test:cover && open coverage/index.html"
   },
-  "author": "Cory House",
+  "author": "",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-sass": "3.3.6",
+    "material-ui": "0.15.2",
     "object-assign": "4.1.0",
-    "react": "15.2.0",
+    "react": "15.2.1",
     "react-dom": "15.2.0",
     "react-redux": "4.4.5",
     "react-router": "2.5.2",
     "react-router-redux": "4.0.5",
+    "react-tap-event-plugin": "1.0.0",
     "redux": "3.5.2"
   },
   "devDependencies": {
@@ -83,23 +86,9 @@
     "webpack-hot-middleware": "2.12.1",
     "webpack-md5-hash": "0.0.5"
   },
-  "keywords": [
-    "react",
-    "reactjs",
-    "react-router",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack",
-    "redux",
-    "flux",
-    "boilerplate",
-    "starter"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/react-slingshot"
+    "url": ""
   }
 }
